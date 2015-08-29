@@ -1,0 +1,6 @@
+applications :
+- name : hack
+memory: 512M
+instance: 1
+path: dist/hello.war
+buildpack: https://github.com/cloudfoundry/java-buildpack
